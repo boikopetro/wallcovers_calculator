@@ -1,0 +1,30 @@
+.App {
+    padding: 30px;
+    background-color: dimgrey;
+    text-align: center;
+    height: 700px;
+}
+.App input {
+    height: 30px;
+}
+.App button {
+    margin: 20px;
+    height: 50px;
+    border-radius: 3px;
+}
+.inline {
+    display: inline;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.inline-size {
+    display: inline;
+    font-size: 1.5rem;
+}
+.container {
+    padding: 10px;
+}
+footer {
+    margin-top: 150px;
+}

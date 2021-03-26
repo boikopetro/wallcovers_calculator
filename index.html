@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+     <div class="App">
+            <header class="App-header">
+                <h1>Розрахунок витрат шпалер</h1>
+            </header>
+            <div class="container">
+                <p class="inline">Ширина :</p>
+                <input id="width" type="number"></input>
+            </div>
+            <div class="container">
+                <p class="inline">Глибина :</p>
+                <input id="depth" type="number"></input>
+            </div>
+            <div class="container">
+                <p class="inline"> Висота : </p>
+                <input id="heigth" type="number"></input>
+            </div>
+            <div>
+                <h2>Розмір рулону</h2>
+                <input class="inline" type="radio" name="size"></input>
+                <p class="inline-size">0.53м * 10м</p>
+                <br></br>
+                <input class="inline" type="radio" name="size" checked></input>
+                <p class="inline-size">1.06м * 10м</p>
+            </div>
+            <div>
+                <button id="btn">Розрахувати</button>
+            </div>
+            <div id="result">
+
+            </div>
+            <footer>Developed by Petro Boiko</footer>
+        </div>
+
+        <script src="index.js"></script>
+</body>
+</html>
