@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <base target="_blank">
 </head>
 <body>
      <div class="App">
@@ -24,20 +25,27 @@
                 <input id="heigth" type="number"></input>
             </div>
             <div>
-                <h2>Розмір рулону</h2>
-                <input class="inline" type="radio" name="size"></input>
-                <p class="inline-size">0.53м * 10м</p>
-                <br></br>
-                <input class="inline" type="radio" name="size" checked></input>
-                <p class="inline-size">1.06м * 10м</p>
+                <h2>Розмір рулону:</h2>
+                <div>
+                    <input  class="i-7" type="radio" name="size" value="5"></input>
+                    <p class="inline-size">0.53м * 10м</p>
+                </div>
+                <div>
+                    <input  class="i-7" type="radio" name="size" value="10"checked></input>
+                    <p class="inline-size">1.06м * 10м</p>
+                </div>
             </div>
             <div>
                 <button id="btn">Розрахувати</button>
             </div>
-            <div id="result">
-
+            <div class="box">
+                <div id="result"></div>
+                <div id="out"></div>
             </div>
-            <footer>Developed by Petro Boiko</footer>
+            <footer><p>...........................................</p>Developed by Petro Boiko</footer>
+            <a href="https://www.facebook.com/profile.php?id=100017837763777">facebook</a>
+            <br>
+            <a href="https://www.linkedin.com/in/petro-boiko-5937061b0/">LinkedIn</a>
         </div>
 
         <script src="index.js"></script>
