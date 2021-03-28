@@ -1,8 +1,9 @@
 .App {
-    padding: 30px;
-    background-color: dimgrey;
+    color: blanchedalmond;
+    padding: 10px;
+    background-image: url(wallpaper.jpg);
+    background-size: cover;
     text-align: center;
-    height: 900px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .App input {
@@ -31,5 +32,9 @@ footer {
     margin-top: 150px;
 }
 .box {
-    background-color:#969fab;
+    padding: 10px;
+    font-size: 1.2rem;  
+    width: 300px;
+    margin: 0 auto;
+    min-height: 70px;
 }

@@ -12,7 +12,6 @@ function result() {
         data=radio[i].value
         }
     }
-    
         if(width<0 || depth<0 || heigth<0) {
             alert("Невірно вказаний розмір!!!")
         }
@@ -38,7 +37,6 @@ function result() {
             showResult.innerHTML = "Загальна площа: "+(((width*heigth)+(depth*heigth))).toFixed(2)*2+" м.кв."
             out.innerHTML = "Кількість рулонів: "+ Math.ceil(((((width*heigth)+(depth*heigth))).toFixed(2)*2)/data) + " шт."
         }
-    
 }
-alert(radio)
+
 
