@@ -1,4 +1,4 @@
-.App {
+.app {
     color: blanchedalmond;
     padding: 10px;
     background-image: url(wallpaper.jpg);
@@ -6,11 +6,11 @@
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.App input {
+.app input {
     height: 30px;
     border-radius: 3px;
 }
-.App button {
+.app button {
     margin: 20px;
     height: 50px;
     border-radius: 3px;
@@ -29,7 +29,8 @@
     padding: 10px;
 }
 footer {
-    margin-top: 150px;
+    margin: 30px;
+    color: rgb(180, 167, 167);
 }
 .box {
     padding: 10px;
@@ -37,4 +38,8 @@ footer {
     width: 300px;
     margin: 0 auto;
     min-height: 70px;
+}
+a {
+    color: white;
+    text-decoration: none;
 }
